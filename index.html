@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Note</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link href="bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- nav item start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Dailly Notes</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                >Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+              id="search"
+            />
+            <button class="btn btn-secondary my-2 my-sm-0 active" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- body sections start -->
+    <div class="container mt-2 d-flex justify-content-center">
+      <div class="w-50 p-1">
+        <div class="card border-success mb-3">
+          <div class="card-header">
+            <h6 class="card-title d-flex justify-content-center">Note Title</h6>
+            <form>
+              <fieldset>
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    id="addtitel"
+                    rows="1"
+                  ></textarea>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div class="card-body">
+            <h4 class="card-title d-flex justify-content-center">
+              Add Your Note
+            </h4>
+            <form>
+              <fieldset>
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    id="addTxt"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div class="d-grid gap-2">
+            <button type="button" class="btn btn-outline-info" id="addbtn">
+              Add Note
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div id="notes" class="row container-fluid"> </div> -->
+    <div class="container justify-content-center">
+      <div class="row gap-2" id="1">
+        <!--<div class="card border-success" style="max-width: 20rem">
+           <div class="card-header">Header</div>
+          <div class="card-body">
+            <h4 class="card-title">Success card title</h4>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card border-success" style="max-width: 20rem">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h4 class="card-title">Success card title</h4>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card border-success" style="max-width: 20rem">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h4 class="card-title">Success card title</h4>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card border-success" style="max-width: 20rem">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h4 class="card-title">Success card title</h4>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
